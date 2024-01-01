@@ -31,7 +31,7 @@ jobs:
     - name: Install Dependencies and Build Assets
       run: |
         npm install
-        npm run dev
+        npm run build
 
     - name: Copy .env
       run: php -r "file_exists('.env') || copy('.env.example', '.env');"
