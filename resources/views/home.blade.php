@@ -5,7 +5,7 @@
             <strong>Welcome To Staging Mode</strong> Deploy With CI/CD
         </div>
 
-        {{-- <div>
+        <div>
             <h1>Event Management Portal </h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem modi ab molestiae culpa corporis consectetur
                 assumenda repudiandae illo animi aspernatur? Perspiciatis iste maxime dignissimos commodi quae recusandae
@@ -74,6 +74,6 @@
                     </div>
                 </div>
             </div>
-        </div> --}}
+        </div>
     </div>
 @endsection
