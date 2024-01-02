@@ -42,7 +42,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h4>Event Management Portal</h4>
+                    <h4>Github Action CI/CD Deployment</h4>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas molestiae id qui, quisquam
                         provident
                         minima optio labore consequuntur sint distinctio temporibus explicabo voluptate libero, sed,

@@ -2,8 +2,9 @@
 @section('content')
     <div class="container mt-5">
         <div class="alert alert-success text-center" role="alert">
-            <strong>Welcome To Staging</strong> Deploy With CI/CD
+            <strong>Welcome To Staging Mode</strong> Deploy With CI/CD
         </div>
+
         {{-- <div>
             <h1>Event Management Portal </h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem modi ab molestiae culpa corporis consectetur
