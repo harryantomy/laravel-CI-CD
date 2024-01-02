@@ -15,6 +15,10 @@ jobs:
       with:
         php-version: '8.1'
 
+    - name: Check if .env exists
+      run: |
+          php -r 'echo file_exists(".env") ? "Exists" : "Not exists";'
+
     - name: Use Node.js and Composer cache
       uses: actions/cache@v2
       with:
@@ -33,11 +37,6 @@ jobs:
         npm install
         npm run build
 
-    - name: Check if .env exists
-      run: |
-        php -r 'echo file_exists(".env") ? "Exists" : "Not exists";'
-      
-       
 
     # - name: Copy .env
     #   run: php -r "file_exists('.env') || copy('.env.example', '.env');"
